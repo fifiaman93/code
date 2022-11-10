@@ -1,7 +1,7 @@
 ﻿<style>
 button{background:blue;color:#fff;border:none;}
 </style>
-<form method="post" enctype="multipart/form-data">
+<form method="POST" enctype="multipart/form-data">
 <input type="file" name="csv" value="" />
 <input type="submit" name="submit" value="Upload" /></form>
 
@@ -12,6 +12,7 @@ $password = "";
 $dbname = "code";
 
 // Create connection
+//BLABLABLA
 $con = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($con->connect_error) {
